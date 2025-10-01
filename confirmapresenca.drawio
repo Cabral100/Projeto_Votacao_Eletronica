@@ -1,0 +1,69 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Página-1" id="_qStlV38hQECBD5v7diU">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30" y="98" width="760" height="442" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-2" value="Coletar dados" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="cEpRMLd-3pjJH0iE-mvX-1" parent="1" target="cEpRMLd-3pjJH0iE-mvX-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-3" value="Confirma presença: Classe Eleitor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="270" y="68" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-6" value="Consultando dados" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-7" value="do/Consulta()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="cEpRMLd-3pjJH0iE-mvX-6">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-15" value="Registrando presença" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-16" value="do/confirmaPresenca()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="cEpRMLd-3pjJH0iE-mvX-15">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cEpRMLd-3pjJH0iE-mvX-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-14" value="[se validos] / confirmar presença" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="cEpRMLd-3pjJH0iE-mvX-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="285" as="targetPoint" />
+            <mxPoint x="360" y="285" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-19" value="Liberando eleitor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="cEpRMLd-3pjJH0iE-mvX-19" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="665" y="460" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-25" value="[se dados invalidos] / liberar eleitor" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cEpRMLd-3pjJH0iE-mvX-23" target="cEpRMLd-3pjJH0iE-mvX-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-23" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cEpRMLd-3pjJH0iE-mvX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cEpRMLd-3pjJH0iE-mvX-7" target="cEpRMLd-3pjJH0iE-mvX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
