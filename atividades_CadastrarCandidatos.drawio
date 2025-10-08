@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="JTWeMxlKSeKs_atCnJTD">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jI318AJl4KQLPQE2ITrv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-1" target="jI318AJl4KQLPQE2ITrv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-2" target="jI318AJl4KQLPQE2ITrv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-2" value="coleta informações dos candidatos registrados" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-4" target="jI318AJl4KQLPQE2ITrv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-4" value="valida condições para candidatura" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-15" value="preenche as condições" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-6" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-9" value="não preenche as condições" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-12" target="jI318AJl4KQLPQE2ITrv-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="758.5" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="759" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-12" value="candiato não registrado no sistema&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="250" width="97" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-14" target="jI318AJl4KQLPQE2ITrv-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590.75" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-14" value="sistema envia e-mail de inaptidão" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="380" width="121.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-17" target="jI318AJl4KQLPQE2ITrv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-17" value="candidatos são registrados na UEg´s" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-18" target="jI318AJl4KQLPQE2ITrv-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-18" value="sistema envia e-mail de confirmação para os candidatos&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jI318AJl4KQLPQE2ITrv-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-22" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-25" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="415" y="610" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jI318AJl4KQLPQE2ITrv-27" value="Cadastrar Candidato" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="315" y="43" width="190" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
