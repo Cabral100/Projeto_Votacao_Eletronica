@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="osT2DjRAX68NfYbWFxvN">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YuD-1PIx2nYaWay4rovV-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Vizualiza Relatório&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="23" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuD-1PIx2nYaWay4rovV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-2" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuD-1PIx2nYaWay4rovV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-4" value="Gerenciador do sistema digita login de acesso" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuD-1PIx2nYaWay4rovV-6" target="YuD-1PIx2nYaWay4rovV-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-6" value="Sistema valida dados de acesso" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-9" value="acesso autorizado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuD-1PIx2nYaWay4rovV-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="229.5" as="targetPoint" />
+            <mxPoint x="515" y="229.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-16" value="acesso não autorizado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YuD-1PIx2nYaWay4rovV-15">
+          <mxGeometry x="-0.3538" y="1" relative="1" as="geometry">
+            <mxPoint x="18" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="220" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuD-1PIx2nYaWay4rovV-10" target="YuD-1PIx2nYaWay4rovV-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-10" value="Sistema disponibiliza relatório de votos da UEg" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="YuD-1PIx2nYaWay4rovV-12" target="YuD-1PIx2nYaWay4rovV-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-12" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="235" y="320" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-14" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="255" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YuD-1PIx2nYaWay4rovV-18" target="YuD-1PIx2nYaWay4rovV-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-18" value="Sistema emite som de erro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-20" value="Sistema pede login novamente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuD-1PIx2nYaWay4rovV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.442;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YuD-1PIx2nYaWay4rovV-20" target="YuD-1PIx2nYaWay4rovV-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="100" />
+              <mxPoint x="303" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
